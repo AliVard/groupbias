@@ -1,0 +1,35 @@
+ltr:
+  datasets_info: ../codes/ltr/datasets_info.json
+  dataset: yahoo
+  toysize: -1
+  epochs: 20
+  lr: 0.004
+  seed: 777
+  results_file: /ivi/ilps/personal/avardas/_data/groupbias
+  net_config:
+      model:
+        fc_model:
+          sizes: [512,256,128]
+          input_norm: True
+          activation: ReLU
+          dropout: 0.1
+        transformer: 
+          N: 1
+          d_ff: 128
+          h: 4
+          positional_encoding:
+            strategy: fixed
+            max_indices: 100
+          dropout: 0.1
+        post_model:
+          d_output: 1
+  learn_group: False
+  
+group:
+  beta: 1
+  suffix: normal
+  feature_id: 99
+  affected: 0
+
+jobid: 0
+verbose: True

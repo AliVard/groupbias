@@ -1,0 +1,16 @@
+fairness:
+  metric: EEL
+  lr: 0.1
+  samples: 16
+  sessions: 4
+  topk: 20
+  epochs: 50
+  grade_levels: 5
+  exposure: log
+  utility_path: /ivi/ilps/personal/avardas/_data/groupbias
+  utility_name: 0.out.pkl 
+  utility_type: estimated
+  results_file: /ivi/ilps/personal/avardas/_data/groupbias
+  learn: True
+
+jobid: 0
