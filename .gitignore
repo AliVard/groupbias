@@ -1,3 +1,6 @@
 
 *.pkl
 *.json
+Figures/*
+Figures
+plots.ipynb
