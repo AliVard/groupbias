@@ -1,0 +1,34 @@
+{
+  "yahoo": {
+    "num_folds": 1,
+    "fold_paths": 
+      [
+        "data/raw/yahoo/"
+      ],
+    "num_relevance_labels": 5,
+    "num_nonzero_feat": 519,
+    "num_unique_feat": 501,
+    "query_normalized": false
+  },
+  "mslr": {
+    "num_folds": 1,
+    "fold_paths": 
+      [
+        "data/raw/mslr/"
+      ],
+    "num_relevance_labels": 5,
+    "num_nonzero_feat": 136,
+    "num_unique_feat": 131,
+    "query_normalized": false
+  },
+  "istella": {
+    "num_folds": 1,
+    "fold_paths": 
+      [
+        "data/raw/istella/"
+      ],
+    "num_relevance_labels": 5,
+    "num_nonzero_feat": 220,
+    "query_normalized": false
+  }
+}
